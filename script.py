@@ -1,7 +1,7 @@
 from ResponseHandler import ResponseHandler
 from database import Database
 import re
-expression = "[-a-zA-Z0-9@: % ._\+~  # =]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)"
+expression = r"[-a-zA-Z0-9@: % ._\+~  # =]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&\/\/=]*)"
 
 db = Database()
 responseHandler = ResponseHandler("./responses.json")
@@ -12,3 +12,5 @@ while url is None:
     url = re.search(expression, scammingMessage)
     if url is None:
         print(responseHandler.getResponse(scammingMessage))
+
+db.addEntry(url.group(0))
