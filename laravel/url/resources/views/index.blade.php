@@ -20,10 +20,22 @@
         <nav class="navbar navbar-light bg-light justify-content-between">
             <a class="navbar-brand">LinkDetector Bot</a>
         </nav>
-        <ul class="list-group">
-            @foreach ($urls as $url)
-                <li class="list-group-item">{{ $url->id }}. {{ $url->url }}</li>
-            @endforeach
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">url</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach ($urls as $url)
+                    <tr>
+                        <td>{{ $url->id }}</td>
+                        <td>{{ $url->url }}</td>
+                    </tr>
+                @endforeach
+            </tbody>
+        </table>
     </div>
 </body>
 
