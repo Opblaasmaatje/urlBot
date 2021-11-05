@@ -1,5 +1,6 @@
 {
 	"responses": [
-		{ "keys": ["Hello", "Hallo"], "response": "Hello fellow kids" }
+		{ "keys": ["Hello", "Hallo"], "response": "Hello fellow kids" },
+		{ "keys": ["oude;telefoon"], "response": "OUDE TELEFOON RESPONSE" }
 	]
 }
