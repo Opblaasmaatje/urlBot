@@ -8,7 +8,7 @@ class Database:
             self.db = mysql.connector.connect(host="localhost",    # your host, usually localhost
                                               user="root",         # your username
                                               passwd="",  # your password
-                                              db="urlBot")        # name of the data base
+                                              db="urlbot")        # name of the data base
             self.cur = self.db.cursor()
             self.cur.execute(
                 "CREATE TABLE `urlbot`.`url` ( `id` INT NOT NULL AUTO_INCREMENT , `url` VARCHAR(255) NOT NULL , PRIMARY KEY (`id`))")
