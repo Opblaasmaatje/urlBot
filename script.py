@@ -13,4 +13,6 @@ while url is None:
     if url is None:
         print(responseHandler.getResponse(scammingMessage))
 
+print("HAHA gotem")
+
 db.addEntry(url.group(0))
