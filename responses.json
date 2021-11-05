@@ -1,0 +1,5 @@
+{
+	"responses": [
+		{ "keys": ["Hello", "Hallo"], "response": "Hello fellow kids" }
+	]
+}
