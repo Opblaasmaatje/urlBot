@@ -1,5 +1,42 @@
 {
-	"responses": [
-		{ "keys": ["Hello", "Hallo"], "response": "Hello fellow kids" }
-	]
+  "responses": [
+    {
+      "keys": [
+        "Hello",
+        "Hallo",
+        "hoi",
+        "hey",
+        "hai",
+        "yo",
+        "hee",
+        "goedemorgen",
+        "goedemiddag",
+        "goedenavond",
+        "goedendag"
+      ],
+      "response": "Hey hallo"
+    },
+    {
+      "keys": [
+        "oude;telefoon;kapot",
+        "mobiel;kapot",
+        "toestel;kapot",
+        "telefoon;stuk",
+        "oude;telefoon;stuk",
+        "mobiel;stuk",
+        "toestel;stuk"
+      ],
+      "response": "oh nee, wat erg, kan ik je helpen ermee?"
+    },
+    {
+      "keys": [
+        "ja",
+        "geld;weinig",
+        "geld;nodig",
+        "tikke;betalen",
+        "te;weinig;geld"
+      ],
+      "response": "stuur maar een betaalverzoekje, dat kan ik wel voor je voorschieten hoor"
+    }
+  ]
 }
