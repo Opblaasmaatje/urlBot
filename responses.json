@@ -24,7 +24,8 @@
         "telefoon;stuk",
         "oude;telefoon;stuk",
         "mobiel;stuk",
-        "toestel;stuk"
+        "toestel;stuk",
+        "oude;telefoon"
       ],
       "response": "oh nee, wat erg, kan ik je helpen ermee?"
     },
@@ -34,7 +35,12 @@
         "geld;weinig",
         "geld;nodig",
         "tikke;betalen",
-        "te;weinig;geld"
+        "te;weinig;geld",
+        "tekort",
+        "euro;weining",
+        "euro;nodig",
+        "tikke;betalen",
+        "betaalverzoek;betalen"
       ],
       "response": "stuur maar een betaalverzoekje, dat kan ik wel voor je voorschieten hoor"
     }
